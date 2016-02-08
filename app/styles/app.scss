@@ -1,16 +1,13 @@
-@import "app/_mixins/colors";
-@import "app/_mixins/fonts";
-@import "app/_mixins/vars";
+@import "app/vars";
+@import "app/mixins";
+
 @import "app/foundation/scss/foundation/_settings";
 @import "app/foundation/scss/foundation/components/_grid";
 
-@import "app/_mixins/mixins";
 
 @import "app/base";
 @import "app/ansi";
 @import "app/auth";
-@import "app/forms";
-@import "app/github";
 
 @import "app/userlike";
 
